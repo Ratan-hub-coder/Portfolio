@@ -221,7 +221,7 @@ color: var(--main-color);
     height: 50rem;
     border-radius: 50%;
     background: transparent;
-    opacity: 0.2;
+    opacity: 0.8;
     z-index: 1;
 }
 .picture img::before{
@@ -230,20 +230,20 @@ color: var(--main-color);
     left: 0;
     width: 0;
     height: 50rem;
-    background-color: var(--main-color);
+    background-color:black;
     z-index: -1;
     transition: .4s;
 
 }
 .picture img:hover::before{
-    width: 50rem;
-} */
+    width: 100%;
+}
 
-/* .home-img{
+.home-img{
     position: absolute;
-    top: 0;
+    top: 20%;
     right: 0;
-    border: 2px solid red;
+
     width: 45%;
     height: 100vh;
        transition: .5s;
